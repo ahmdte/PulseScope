@@ -213,10 +213,10 @@ Copyright (c) 2024 PulseScope Contributors
 
 ## Academic Context
 
-This project was developed as a **portfolio demonstration of embedded systems engineering competency** for university applications. It showcases:
+PulseScope is a performance-focused implementation of a digital logic analyzer, architected for real-time signal acquisition on embedded platforms. This project demonstrates high-level proficiency in systems engineering through the following design pillars:
 
-- **Real-time firmware design**: DMA, FreeRTOS, peripheral configuration, interrupt handling
-- **Systems programming**: Lock-free data structures, binary protocols, CRC implementation
-- **Cross-platform development**: ESP-IDF (C) + Python host with modern packaging
-- **Test-driven methodology**: Unit tests (pytest/Unity), CI pipeline, static analysis
-- **Documentation discipline**: Protocol specs, hardware design files, API references
+- **Real-time firmware design**: Leveraging DMA, FreeRTOS, precise peripheral configuration, and low-latency interrupt handling for signal integrity.
+- **Systems programming**: Implementation of lock-free data structures, efficient binary protocols, and robust CRC-based error checking.
+- **Cross-platform development**: Cohesive architecture spanning ESP-IDF (C) firmware and a high-level Python host application, managed with modern packaging workflows.
+- **Test-driven methodology**: Rigorous validation using unit testing (pytest/Unity), automated CI/CD pipelines, and static code analysis.
+- **Documentation discipline**: Comprehensive technical design, including detailed protocol specifications, hardware schematics, and generated API references.
