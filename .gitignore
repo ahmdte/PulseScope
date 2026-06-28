@@ -1,0 +1,106 @@
+# =============================================================================
+# ESP-IDF Build Artifacts (Official Espressif recommended entries)
+# =============================================================================
+build/
+managed_components/
+dependencies.lock
+sdkconfig
+sdkconfig.old
+sdkconfig.json
+*.bin
+*.elf
+*.map
+*.o
+*.a
+*.d
+*.S
+port/
+
+# Partition table (if using custom)
+partition_table/
+partitions_*.bin
+
+# Flash arguments (contains paths)
+flasher_args.json
+project_description.json
+
+# =============================================================================
+# Python / Host Software
+# =============================================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+pip-wheel-metadata/
+
+# =============================================================================
+# IDE / Editor
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+.vs/
+
+# =============================================================================
+# OS Generated
+# =============================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============================================================================
+# Logs & Temporary Files
+# =============================================================================
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+
+# =============================================================================
+# Capture Data (Generated during testing)
+# =============================================================================
+*.bin
+*.csv
+*.vcd
+*.sr
+*.json
+
+# =============================================================================
+# Documentation Build
+# =============================================================================
+docs/_build/
+docs/.docusaurus/
+docs/node_modules/
+
+# =============================================================================
+# Hardware Design (KiCad)
+# =============================================================================
+hardware/*-cache.lib
+hardware/*-cache.dcm
+hardware/*.kicad_prl
+hardware/*.bak
+hardware/*.backup
+hardware/*.auto
+hardware/fp-lib-table
+hardware/sym-lib-table
+hardware/*.kicad_pcb-bak
+hardware/*.kicad_sch-bak
+hardware/*.kicad_pro-bak
